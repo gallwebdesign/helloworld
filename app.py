@@ -17,7 +17,7 @@ df = pd.DataFrame({
 st.write(df)
 
 
-st.write('Below is a DataFrame:', df, 'Above is a dataframe.')
+st.write('Below is a DataFrame:', df, 'Above is a DataFrame.')
 
 
 df2 = pd.DataFrame(
