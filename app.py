@@ -3,6 +3,26 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
+hide_st_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    </style>
+
+    <script>
+    // Get a reference to the iframe
+    var iframe = document.getElementById("your-iframe-id");
+
+    // Access the iframe's content document
+    var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+
+    // Select and manipulate an element outside of the iframe
+    var elementOutsideIframe = document.querySelector(".viewerBadge_container__r5tak");
+    elementOutsideIframe.style.display = "none";
+    </script>
+"""
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 
 st.header("st-write")
 
