@@ -7,19 +7,8 @@ hide_st_style = """
     <style>
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
+    html body div#root div div.styles_streamlitAppContainer__w82h8 div.styles_stateContainer__CelYF a.viewerBadge_container__r5tak.styles_viewerBadge__CvC9N {visibility: hidden;}
     </style>
-
-    <script>
-    // Get a reference to the iframe
-    var iframe = document.getElementById("your-iframe-id");
-
-    // Access the iframe's content document
-    var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
-
-    // Select and manipulate an element outside of the iframe
-    var elementOutsideIframe = document.querySelector(".viewerBadge_container__r5tak");
-    elementOutsideIframe.style.display = "none";
-    </script>
 """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
