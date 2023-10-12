@@ -7,7 +7,7 @@ hide_st_style = """
     <style>
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
-    html body div#root div div.styles_streamlitAppContainer__w82h8 div.styles_stateContainer__CelYF a.viewerBadge_container__r5tak.styles_viewerBadge__CvC9N {display: none;}
+    html body div#root div div.styles_streamlitAppContainer__w82h8 div.styles_stateContainer__CelYF a.viewerBadge_container__r5tak {display: none;}
     </style>
 """
 st.markdown(hide_st_style, unsafe_allow_html=True)
