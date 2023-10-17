@@ -7,8 +7,8 @@ import streamlit as st
 st.markdown(
     """
     <style>
-    .embeddedAppMetaInfoBar_hostedName__-kdmi {
-        display: none;
+    .element-container {
+        backgroundcolor: #00ffff;
     }
     </style>
     """,
